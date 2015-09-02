@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		74C14DA51B968EC60080E273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C14DA41B968EC60080E273 /* main.m */; };
 		74C14DA81B968EC60080E273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C14DA71B968EC60080E273 /* AppDelegate.m */; };
-		74C14DAB1B968EC60080E273 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C14DAA1B968EC60080E273 /* ViewController.m */; };
-		74C14DAE1B968EC60080E273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C14DAC1B968EC60080E273 /* Main.storyboard */; };
 		74C14DB01B968EC60080E273 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C14DAF1B968EC60080E273 /* Images.xcassets */; };
 		74C14DB31B968EC60080E273 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C14DB11B968EC60080E273 /* LaunchScreen.xib */; };
 		74C14DBF1B968EC60080E273 /* mask___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C14DBE1B968EC60080E273 /* mask___Tests.m */; };
+		74C14DCC1B968ED50080E273 /* ChenBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C14DC81B968ED50080E273 /* ChenBtn.m */; };
+		74C14DCD1B968ED50080E273 /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C14DCA1B968ED50080E273 /* MaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,15 @@
 		74C14DA41B968EC60080E273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74C14DA61B968EC60080E273 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74C14DA71B968EC60080E273 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74C14DA91B968EC60080E273 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74C14DAA1B968EC60080E273 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74C14DAD1B968EC60080E273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74C14DAF1B968EC60080E273 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74C14DB21B968EC60080E273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		74C14DB81B968EC60080E273 /* mask小玩法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mask小玩法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C14DBD1B968EC60080E273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74C14DBE1B968EC60080E273 /* mask___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "mask___Tests.m"; sourceTree = "<group>"; };
+		74C14DC81B968ED50080E273 /* ChenBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChenBtn.m; sourceTree = "<group>"; };
+		74C14DC91B968ED50080E273 /* MaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
+		74C14DCA1B968ED50080E273 /* MaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
+		74C14DCB1B968ED50080E273 /* ChenBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChenBtn.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +84,10 @@
 			children = (
 				74C14DA61B968EC60080E273 /* AppDelegate.h */,
 				74C14DA71B968EC60080E273 /* AppDelegate.m */,
-				74C14DA91B968EC60080E273 /* ViewController.h */,
-				74C14DAA1B968EC60080E273 /* ViewController.m */,
-				74C14DAC1B968EC60080E273 /* Main.storyboard */,
+				74C14DCB1B968ED50080E273 /* ChenBtn.h */,
+				74C14DC81B968ED50080E273 /* ChenBtn.m */,
+				74C14DC91B968ED50080E273 /* MaskViewController.h */,
+				74C14DCA1B968ED50080E273 /* MaskViewController.m */,
 				74C14DAF1B968EC60080E273 /* Images.xcassets */,
 				74C14DB11B968EC60080E273 /* LaunchScreen.xib */,
 				74C14DA21B968EC60080E273 /* Supporting Files */,
@@ -199,7 +201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C14DAE1B968EC60080E273 /* Main.storyboard in Resources */,
 				74C14DB31B968EC60080E273 /* LaunchScreen.xib in Resources */,
 				74C14DB01B968EC60080E273 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C14DAB1B968EC60080E273 /* ViewController.m in Sources */,
+				74C14DCD1B968ED50080E273 /* MaskViewController.m in Sources */,
 				74C14DA81B968EC60080E273 /* AppDelegate.m in Sources */,
+				74C14DCC1B968ED50080E273 /* ChenBtn.m in Sources */,
 				74C14DA51B968EC60080E273 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +246,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74C14DAC1B968EC60080E273 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74C14DAD1B968EC60080E273 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74C14DB11B968EC60080E273 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
